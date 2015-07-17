@@ -1,0 +1,8 @@
+{application, rabbitmq_inject_user_id,
+ [{description, "inject user_id property on messages"},
+  {vsn, "0.01"},
+  {modules, []},
+  {registered, []},
+  {mod, {rabbitmq_inject_user_id_app, []}},
+  {env, []},
+  {applications, [kernel, stdlib, rabbit, amqp_client]}]}.
